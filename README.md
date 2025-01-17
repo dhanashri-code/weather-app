@@ -1,6 +1,7 @@
 **🌤 Weather App** built with HTML, CSS, and JavaScript that uses the OpenWeatherMap API to fetch and display weather data for a given city.
 
 Features :
+
 Search for a city to get current weather information.
 Use the OpenWeatherMap API for fetching weather data.
 Temperature: Current temperature in Celsius.
