@@ -1,0 +1,80 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: url('bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.weather-app {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, rgb(88, 77, 6), rgb(237, 207, 12), rgb(204, 172, 68));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.search-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background: linear-gradient(rgb(24, 147, 203), rgb(20, 100, 165), rgb(51, 183, 231));
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.weather-result {
+    text-align: center;
+}
+
+.weather-icon {
+    margin: auto;
+    width: 100px;
+    height: 100px;
+}
+
+.hidden {
+    display: none;
+}
+
+h2{
+    margin: 0%;
+    font-size: 30px;
+    color: antiquewhite;
+}
+p{
+    font-size: large;
+    color: aliceblue;
+}
